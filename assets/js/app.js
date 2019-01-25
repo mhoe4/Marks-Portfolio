@@ -1,5 +1,6 @@
-$(document).ready(function () {
-  $("#contact").hide();
+$("#contact").hide();
   
-  $("#portfolio").hide(); 
+$("#portfolio").hide(); 
+$(document).ready(function () {
+
 }); 
