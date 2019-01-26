@@ -8,10 +8,10 @@ $(document).ready(function () {
 
 function showAbout() {
   $("#portfolio").hide();
-  $("#about").show();
+  $("#bio").show();
 }
 
 function showProjects() {
   $("#portfolio").show();
-  $("#about").hide();
+  $("#bio").hide();
 }
