@@ -7,10 +7,19 @@ body {
   background-color: #ffffff;
 }
 
+a { color:black } 
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
+.header{
+  margin-bottom: 10px;
+}
+
 #avatar {
   margin-top: 10px;
   border-radius: 50%;
-  /* float: left; */
 }
 
 .contact {
@@ -34,6 +43,7 @@ body {
 
 .nav{
   border-top: 2px solid black;
+  border-bottom: 2px solid black;
   display: flex;
   justify-content: center;
 }
@@ -44,6 +54,7 @@ button:hover {
 }
 
 .nav-button {
+  margin-bottom: 10px;
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
@@ -53,7 +64,8 @@ button:hover {
   padding-top: 10px;
 }
 
-.home {
+
+.about {
   margin-left: 25px;
 }
 

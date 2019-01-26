@@ -2,16 +2,16 @@ $("#contact").hide();
 $("#portfolio").hide();
 
 $(document).ready(function () {
-  $(document).on("click", "#home-button", showHome);
+  $(document).on("click", "#about-button", showAbout);
   $(document).on("click", "#projects-button", showProjects);
 });
 
-function showHome() {
+function showAbout() {
   $("#portfolio").hide();
-  $("#bio").show();
+  $("#about").show();
 }
 
 function showProjects() {
   $("#portfolio").show();
-  $("#bio").hide();
+  $("#about").hide();
 }
