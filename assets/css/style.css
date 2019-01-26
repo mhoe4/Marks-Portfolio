@@ -4,7 +4,7 @@
 
 media query for nav on phoneee 
 
-
+header background
 
 */
 
@@ -21,6 +21,9 @@ a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:black }
 
 .header{
+  
+  /* background-image: url("../images/dev.jpg");
+  background-size: auto; */
   margin-bottom: 10px;
 }
 
@@ -69,6 +72,11 @@ button:hover {
   outline:none;
 }
 
-#bio {
+.main-section {
   margin-top: 10px;
+}
+
+.my-p-img {
+  height: 200px !important;
+  width: 400px !important;
 }

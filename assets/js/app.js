@@ -1,5 +1,6 @@
 $("#contact").hide();
 $("#portfolio").hide();
+$("#portfolio2").hide();
 
 $(document).ready(function () {
   $(document).on("click", "#about-button", showAbout);
