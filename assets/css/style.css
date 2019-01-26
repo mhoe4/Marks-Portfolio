@@ -1,6 +1,13 @@
-/*
- * css to modify bootstrap settings and add my own details
+/* 
+
+
+
+media query for nav on phoneee 
+
+
+
 */
+
 body {
   background-image: url("../images/background2.png");
   background-repeat: repeat;
