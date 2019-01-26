@@ -6,24 +6,51 @@ body {
   background-repeat: repeat;
   background-color: #ffffff;
 }
-.img {
 
-  align-self: center;
+#avatar {
+  margin-top: 10px;
+  border-radius: 50%;
+  /* float: left; */
 }
-.icons {
-  padding: 5px !important;
-}
-.github {
+
+.contact {
+  margin-top: 10px;
   float: right;
+  margin-left: 10px;
 }
 
-.avatar {
+.phone-icon {
+  margin-left:2px;
+  height: 15px;
+  padding-bottom: 1px;
+}
+
+.nav{
+  border-top: 2px solid black;
   display: flex;
   justify-content: center;
-
-}
-#avatar {
-  border-radius: 50%;
-
 }
 
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.nav-button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  padding-top: 10px;
+}
+
+.home {
+  margin-left: 25px;
+}
+
+.projects {
+  margin-left: 10px;
+  margin-right:10px;
+}
