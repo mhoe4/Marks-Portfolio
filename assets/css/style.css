@@ -19,6 +19,13 @@ body {
   margin-left: 10px;
 }
 
+.icon {
+  height: 20px;
+}
+
+.email-icon {
+  height: 25px;
+}
 .phone-icon {
   margin-left:2px;
   height: 15px;
