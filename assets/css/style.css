@@ -109,3 +109,26 @@ hr {
   color: #333; /* old IE */
   background-color: #333; /* Modern Browsers */
 }
+
+/* media query for 640px screen or smaller */
+@media screen and (max-width: 640px) {
+  
+  .my-sm-image-wrapper {
+      width: 100%;
+  }
+  
+  .card {
+      width: 100%;
+      height: auto;
+  }
+
+  .card-img {
+      width: 100%;
+      height: auto;
+  }
+
+
+  .container {
+      max-width: 640px;
+  }
+}
