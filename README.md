@@ -1,57 +1,23 @@
 # Marks-Portfolio
-A portfolio of Marks development work
+A short bio about Mark Hoefer.
 
-#### Content
+A small portfolio with some of Marks development work.
 
-Your updated site should have the following content:
+A link to a PDF of Mark's Resume.
 
-* Your name
+### Contact Info
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+  1. Email
+  2. Phone Number
 
-* A link to a PDF of your resume
+### Social Media Links
+  1. Github
+  2. LinkedIn
 
-* List of projects. For each project make sure you have the following:
+### Portfolio Items
+`Train Scheduler` - Uses firebase to store information about train arrivals and MomentJS to calculate times.
 
-  * Project title
+`GifTastic` - Consumes the `Giphy API` allowing the user to search GIFs 
 
-  * Link to the deployed version
+`Crystal Collector` - Simple javascript game where the user tries to match the generated number by clicking on crystals which represent randomly generated values between 1 and 12.
 
-  * Link to the code on GitHub
-
-#### Design
-
-The content of your portfolio page is a lot more important than the aesthetics. That said, there are a couple basic requirements your portfolio page should meet:
-
-* Mobile-friendliness: you don't need advanced responsive styles, but you should ensure that your portfolio page is still readable on different screen sizes
-
-* Readability: make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-#### Competitive Content
-
-* At least 3 deployed projects
-
-* External content:
-
-  * Update your LinkedIn with the projects you've worked on so far
-
-  * Update the README for each project you linked to with a description of the problem,
-  how you solved it, and some information about your technical approach
-
-  * Suggested: refactor some of your code from earlier assignments to make them more readable
-
-#### Competitive Design
-
-Unfortunately, this is where it gets a little bit subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design: you should be proud to pull out your phone and share
-your portfolio site with a friend, family member, or someone at a meetup.
-
-* Polish: choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site.
-
-* Images: add a meaningful screenshot for each of your projects
-
-If you want a slick-looking site, but don't feel good about your CSS skills,
-check out CV, Resume, and Portfolio site templates on [ThemeForest](https://themeforest.net/category/site-templates?tags=cv,resume,portfolio)
