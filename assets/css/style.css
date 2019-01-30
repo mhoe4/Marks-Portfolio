@@ -67,7 +67,7 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 button:hover {
-  background-color: gray;
+  background-color: rgb(21,93,119);
   color: white;
 }
 
