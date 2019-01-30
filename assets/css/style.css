@@ -1,19 +1,14 @@
 /* 
 
-fonts/colors/sizing for bio and the rest
-
-better background
-
-
-click email
-
-
-copyright footer?
-
+--fonts/colors/sizing for bio and the rest
+--better background
+--click email
 
 */
 
 body {
+  
+  /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
   background-image: url("../images/background2.png");
   background-repeat: repeat;
   background-color: #ffffff;
