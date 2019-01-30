@@ -27,6 +27,7 @@
 </head>
 
 <body>
+  <!-- Main Container -->
   <div class='container'>
 
     <!-- Header Row -->
@@ -87,114 +88,164 @@
     </div>
     <!-- End Nav Buttons -->
 
-    <!-- Main Section Row -->
-    <div class="row main-section">
+    <!-- bio container -->
+    <div id='bio' class="container main-section">
+      <!-- Bio Row -->
+      <div class="row">
 
-      <!-- Bio Section -->
-      <div id="bio" class="col-md-6 mx-auto">
-        <p>
-          Hello! My name is Mark Hoefer, and I'm an Atlanta-based software developer who is highly self-motivated to
-          achieve
-          all of my goals. If I'm not working towards my career goals, I am working towards my fitness goals with my
-          friends
-          at Lifetime.
-        </p>
-
-        <p>
-          I earned a B.S. in Computer Science from the University of Georgia while simulataneously working as a
-          full-time
-          software engineer at CareerBuilder. After graduation, I worked for a startup named Monza Cloud for ~1 year
-          before starting a business with a close friend.
-        </p>
-
-        <p>
-          I am an experienced developer who has worked on teams using technology like HTML, CSS, JavaScript, C#,
-          Microsoft
-          SQL Server, Visual Studio, GitHub, and Microsoft Azure (Microsoft Cloud Services, Notification Hub, Twilio,
-          Storage
-          Accounts, Queues, App Services, Workers).
-        </p>
-      </div>
-      <!-- End Bio Section -->
-
-      <!-- Portfolio -->
-      <div id="portfolio">
-        <!-- portfolio section -->
+        <!-- Bio Section -->
         <div class="col-md-6 mx-auto">
-          <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-            <!-- portfolio items -->
+          <p>
+            Hello! My name is Mark Hoefer, and I'm an Atlanta-based software developer who is highly self-motivated to
+            achieve
+            all of my goals. If I'm not working towards my career goals, I am working towards my fitness goals with my
+            friends
+            at Lifetime.
+          </p>
 
-            <!-- Train Scheduler -->
-            <a class="my-sm-image-wrapper" target="_blank" href="https://mhoef23.github.io/Train-Scheduler/">
-              <div class="card bg-dark text-white m-2">
-                <img class="card-img border-0 my-p-img" src="assets/images/train.jpg" alt="Train-Scheduler">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                  <h4 class="card-title my-bg-primary text-center p-2">Train Scheduler</h4>
-                </div>
+          <p>
+            I earned a B.S. in Computer Science from the University of Georgia while simulataneously working as a
+            full-time
+            software engineer at CareerBuilder. After graduation, I worked for a startup named Monza Cloud for ~1 year
+            before starting a business with a close friend.
+          </p>
+
+          <p>
+            I am an experienced developer who has worked on teams using technology like HTML, CSS, JavaScript, C#,
+            Microsoft
+            SQL Server, Visual Studio, GitHub, and Microsoft Azure (Microsoft Cloud Services, Notification Hub, Twilio,
+            Storage
+            Accounts, Queues, App Services, Workers).
+          </p>
+        </div>
+        <!-- End Bio Section -->
+
+      </div>
+      <!-- End Bio Row -->
+    </div>
+    <!-- End Bio Container -->
+
+    <!-- Portfolio Container -->
+    <div id="portfolio" class="container">
+      <div class="row">
+        <div class="col-md-6 bg-transparent mx-auto border border-dark my-sm-4">
+
+          <div class="page-header my-bg-reverse pt-2">
+            <h2>Train Scheduler</h2>
+            <hr>
+          </div>
+
+          <div class="row my-text-primary">
+            <div class="col-md-12">
+              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
+
+                <a class="" target="_blank" href="https://github.com/mhoef23/Train-Scheduler">
+                  <div class="card bg-dark text-white m-2">
+                    <img class="card-img border-0 my-p-img" src="assets/images/train.jpg" alt="Train-Scheduler-code">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                      <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
+                    </div>
+                  </div>
+                </a>
+
+                <a class="" target="_blank" href="https://mhoef23.github.io/Train-Scheduler/">
+                  <div class="card bg-dark text-white m-2">
+                    <img class="card-img border-0 my-p-img" src="assets/images/train-ss.PNG" alt="Train-Scheduler">
+
+                    <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                      <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
+                    </div>
+                  </div>
+                </a>
+
               </div>
-            </a>
-
-            <!-- Young Thug Hangman -->
-            <a class="my-sm-image-wrapper" target="_blank" href="https://mhoef23.github.io/Word-Guess-Game/">
-              <div class="card bg-dark text-white m-2">
-                <img class="card-img border-0 my-p-img" src="assets/images/yt.jpg" alt="Young Thug Hangman">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                  <h4 class="card-title my-bg-primary text-center p-2">Young Thug Hangman</h4>
-                </div>
-              </div>
-            </a>
-
-            <!-- Crystal Collector -->
-            <a class="my-sm-image-wrapper" target="_blank" href="https://mhoef23.github.io/unit-4-game/">
-              <div class="card bg-dark text-white m-2">
-                <img class="card-img border-0 my-p-img" src="assets/images/crystal-collector.jpg" alt="Crystal Collector">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                  <h4 class="card-title my-bg-primary text-center p-2">Crystal Collector</h4>
-                </div>
-              </div>
-            </a>
-
-            <!-- Matrix Trivia -->
-            <a class="my-sm-image-wrapper" target="_blank" href="https://mhoef23.github.io/Trivia-Game/">
-              <div class="card bg-dark text-white m-2">
-                <img class="card-img border-0 my-p-img" src="assets/images/matrix.jpg" alt="Matrix-Trivia">
-                <div class="card-img-overlay d-flex flex-column justify-content-end m-0 p-0">
-                  <h4 class="card-title my-bg-primary text-center p-2">Trivial Matrix Trivia</h4>
-                </div>
-              </div>
-            </a>
-
-            <!-- Gif Tastic -->
-            <a class="my-sm-image-wrapper" target="_blank" href="https://mhoef23.github.io/GifTastic/">
-              <div class="card bg-dark text-white m-2">
-                <img class="card-img border-0 my-p-img" src="assets/images/pinkdust.png" alt="GifTastic">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                  <h4 class="card-title my-bg-primary text-center p-2">GifTastic</h4>
-                </div>
-              </div>
-            </a>
-
-            <!-- Project 1 - Ketchup -->
-            <a class="my-sm-image-wrapper" target="_blank" href="https://sammysosa23.github.io/Project1/">
-              <div class="card bg-dark text-white m-2">
-                <img class="card-img border-0 my-p-img" src="assets/images/ketchup1.png" alt="project1">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                  <h4 class="card-title my-bg-primary text-center p-2">Ketchup</h4>
-                </div>
-              </div>
-            </a>
-
-            <!-- end portfolio items -->
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- End Portfolio -->
+      <div class="row">
+        <div class="col-md-6 bg-transparent mx-auto border border-dark my-sm-4">
+
+          <div class="page-header my-bg-reverse pt-2">
+            <h2>Gif-Tastic</h2>
+            <hr>
+          </div>
+
+          <div class="row my-text-primary">
+            <div class="col-md-12">
+              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
+
+                <a class="" target="_blank" href="https://github.com/mhoef23/GifTastic">
+                  <div class="card bg-dark text-white m-2">
+                    <img class="card-img border-0 my-p-img" src="assets/images/pinkdust.png" alt="giftastic-git-code">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                      <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
+                    </div>
+                  </div>
+                </a>
+
+                <a class="" target="_blank" href="https://mhoef23.github.io/GifTastic/">
+                  <div class="card bg-dark text-white m-2">
+                    <img class="card-img border-0 my-p-img" src="assets/images/giftastic-ss.PNG" alt="giftastic">
+
+                    <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                      <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="row">
+          <div class="col-md-6 bg-transparent mx-auto border border-dark my-sm-4">
+  
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Crystal Collector</h2>
+              <hr>
+            </div>
+  
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
+  
+                  <a class="" target="_blank" href="https://github.com/mhoef23/unit-4-game">
+                    <div class="card bg-dark text-white m-2">
+                      <img class="card-img border-0 my-p-img" src="assets/images/crystal-collector.jpg" alt="crystal-collector-git-code">
+                      <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                        <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
+                      </div>
+                    </div>
+                  </a>
+  
+                  <a class="" target="_blank" href="https://mhoef23.github.io/unit-4-game/">
+                    <div class="card bg-dark text-white m-2">
+                      <img class="card-img border-0 my-p-img" src="assets/images/crystal-collector-ss.PNG" alt="crystal-collector">
+  
+                      <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                        <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
+                      </div>
+                    </div>
+                  </a>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
     </div>
-    <!-- Main Section Row -->
+    <!-- End Portfolio Container -->
 
 
   </div>
+  <!-- End Main Container -->
 
   <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
