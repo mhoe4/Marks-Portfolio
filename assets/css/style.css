@@ -112,6 +112,9 @@ hr {
 
 /* media query for 640px screen or smaller */
 @media screen and (max-width: 640px) {
+  .nav-button {
+    margin: 0px;
+  }
   
   .my-sm-image-wrapper {
       width: 100%;
@@ -131,8 +134,6 @@ hr {
   .container {
       max-width: 640px;
   }
-  .nav-button {
-    margin: 0px;
-  }
+  
 
 }
