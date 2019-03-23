@@ -101,6 +101,15 @@ hr {
   background-color: #333; /* Modern Browsers */
 }
 
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .5;
+}
+
 /* media query for 640px screen or smaller */
 @media screen and (max-width: 640px) {
   .nav-button {
