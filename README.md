@@ -15,6 +15,14 @@ A link to a PDF of Mark's Resume.
   2. LinkedIn
 
 ### Portfolio Items
+`Exquisite Corpse` - Exquisite corpse is a game played where a collection of images or words is collectiveley assembled from various users. The application uses Google Authentication to login/verify the user. Once the user logins, they can either create a new story or add to an existing story. HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on the backend.
+
+`Burger` - This application is a burger logger created using with MySQL, Node, Express, Handlebars and a homemade ORM. This app follows the MVC design pattern, uses Node/MySQL to query/route data, and Handlebars to generate HTML.
+
+`Friend Finder` - This is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site takes in results from users' surveys, then compare their answers with those from other users. The app then displays the name and picture of the user with the best overall match. This node application uses Express to handle routing and is deployed to Heroku so other users can fill it out.
+
+`LIRI` - LIRI is a command line node app that takes in parameters and gives you back data.
+
 `Train Scheduler` - Uses firebase to store information about train arrivals and MomentJS to calculate times.
 
 `GifTastic` - Consumes the `Giphy API` allowing the user to search GIFs 
