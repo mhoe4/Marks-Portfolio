@@ -1,646 +1,1015 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Browser tab & icon -->
+    <title>Mark Hoefer</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/Portfolio.png"
+    />
 
-  <!-- Browser tab & icon -->
-  <title>Mark Hoefer</title>
-  <link rel="shortcut icon" type="image/png" href="assets/images/Portfolio.png" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- My CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
 
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <body>
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Header Row -->
+      <div class="row">
+        <!-- Header Column -->
+        <div class="col-md-12 mx-auto header">
+          <!-- Profile Pic -->
+          <a
+            class=""
+            target="_blank"
+            href="https://www.linkedin.com/in/mark-hoefer-a19b25127/"
+          >
+            <img
+              class="img"
+              id="avatar"
+              src="assets/images/mark.jpg"
+              alt="Avatar"
+              style="width: 100px"
+            />
+          </a>
+          <!-- End Profile Pic -->
 
-</head>
+          <!-- Contact Info -->
+          <div class="contact">
+            <div>
+              <a
+                class=""
+                target="_blank"
+                href="https://www.linkedin.com/in/mark-hoefer-a19b25127/"
+              >
+                <img
+                  class="linked-in-icon icon"
+                  src="assets/images/linked-in.svg.png"
+                  alt="github"
+                  style="width: 25px"
+                />
+                <span id="name">Mark Hoefer</span>
+              </a>
+            </div>
 
-<body>
-  <!-- Main Container -->
-  <div class='container'>
+            <div>
+              <a class="" target="_blank" href="https://github.com/mhoef23">
+                <img
+                  class="github-icon icon"
+                  src="assets/images/github.svg"
+                  alt="github"
+                  style="width: 25px"
+                />
+                <span id="git">@mhoe4</span>
+              </a>
+            </div>
 
-    <!-- Header Row -->
-    <div class='row'>
+            <div>
+              <img
+                class="email-icon icon"
+                src="assets/images/email.png"
+                alt="email"
+                style="width: 25px"
+              />
+              <a href="mailto:mhoefer1@gmail.com">mhoefer1@gmail.com</a>
+            </div>
 
-      <!-- Header Column -->
-      <div class="col-md-12 mx-auto header">
-        <!-- Profile Pic -->
-        <a class="" target="_blank" href="https://www.linkedin.com/in/mark-hoefer-a19b25127/">
-          <img class="img" id="avatar" src="assets/images/mark.jpg" alt="Avatar" style="width:100px">
-        </a>
-        <!-- End Profile Pic -->
-
-        <!-- Contact Info -->
-        <div class="contact">
-
-          <div>
-            <a class="" target="_blank" href="https://www.linkedin.com/in/mark-hoefer-a19b25127/">
-              <img class="linked-in-icon icon" src="assets/images/linked-in.svg.png" alt="github" style="width:25px">
-              <span id="name">Mark Hoefer</span>
-            </a>
+            <div>
+              <img
+                class="phone-icon icon"
+                src="assets/images/phone.png"
+                alt="phone"
+                style="width: 20px"
+              />
+              <a href="770-313-5455">770-313-5455</a>
+            </div>
           </div>
-
-          <div>
-            <a class="" target="_blank" href="https://github.com/mhoef23">
-              <img class="github-icon icon" src="assets/images/github.svg" alt="github" style="width:25px">
-              <span id="git">@mhoe4</span>
-            </a>
-          </div>
-
-          <div>
-            <img class="email-icon icon" src="assets/images/email.png" alt="email" style="width:25px">
-            <a href="mailto:mhoefer1@gmail.com">mhoefer1@gmail.com</a>
-          </div>
-
-          <div>
-            <img class="phone-icon icon" src="assets/images/phone.png" alt="phone" style="width:20px">
-            <a href="770-313-5455">770-313-5455</a>
-          </div>
-
+          <!-- End Contact Info -->
         </div>
-        <!-- End Contact Info -->
-
+        <!-- End header column -->
       </div>
-      <!-- End header column -->
+      <!-- End Header Row -->
+
+      <!-- Nav Buttons -->
+      <div class="row">
+        <div class="col-md-12 col-sm-12 mx-auto nav">
+          <button class="nav-button" id="about-button">About</button>
+          <span class="nav-button"> | </span>
+          <button class="nav-button" id="projects-button">Projects</button>
+          <span class="nav-button"> | </span>
+          <button class="nav-button" id="resume-button">Resume</button>
+        </div>
+      </div>
+      <!-- End Nav Buttons -->
+
+      <!-- bio container -->
+      <div id="bio" class="container main-section">
+        <!-- Bio Row -->
+        <div class="row">
+          <!-- Bio Section -->
+          <div class="col-md-12 mx-auto">
+            <p>
+              Hello! My name is Mark Hoefer, and I'm an Atlanta-based software
+              developer who is highly self-motivated to achieve all of my goals.
+              If I'm not working towards my career goals, I am working towards
+              my fitness goals through exercise and playing sports.
+            </p>
+
+            <p>
+              I earned a B.S. in Computer Science from the University of Georgia
+              while working as a full-time software engineer for CareerBuilder.
+              After graduating in May 2017, I started building DevOps tools for
+              Microsoft Azure at a startup named Monza Cloud. In 2018, I started
+              a construction contracting business, Lumbee Concrete, with my
+              close friend Alex Crawford. In 2019, I attended Georgia Tech's
+              Full Stack Web Development Bootcamp. During this time I gained
+              experience using popular web development technologies like
+              Node.js, React.js, MongoDB, and Express.js. After completing the
+              bootcamp I started working for nCourt, where I currently work now,
+              building DevOps tools, building sites for courts to process
+              payments, and integrating with various APIs to accomplish various
+              goals.
+            </p>
+
+            <p>
+              I am a full-stack software developer with over 6 years of
+              professional experience using technology like C#, VisualBasic,
+              .NET, HTML, CSS, JavaScript, Microsoft SQL Server, Visual Studio,
+              GitHub, Microsoft Azure, and Azure DevOps.
+            </p>
+          </div>
+          <!-- End Bio Section -->`
+        </div>
+        <!-- End Bio Row -->
+      </div>
+      <!-- End Bio Container -->
+
+      <!-- Portfolio Container -->
+      <div id="portfolio" class="container">
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>InstaShoe</h2>
+              <hr />
+            </div>
+            <p>InstaShoe is a react application hosted on heroku.</p>
+            <p>
+              HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on
+              the backend.
+            </p>
+
+            <p>
+              See project
+              <a
+                target="_blank"
+                href="https://github.com/mhoef23/InstaShoe/blob/master/README.md"
+                >README</a
+              >
+              for more info.
+            </p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/InstaShoe"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/instashoe_git.png"
+                            alt="clicky-game-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://peaceful-shelf-92187.herokuapp.com/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/instashoe_app.png"
+                            alt="clicky-game-app"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Google Books Search</h2>
+              <hr />
+            </div>
+            <p>Google Books Search is a react application hosted on heroku.</p>
+            <p>
+              HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on
+              the backend.
+            </p>
+
+            <p>
+              See project
+              <a
+                target="_blank"
+                href="https://github.com/mhoef23/google-books-search/blob/master/README.md"
+                >README</a
+              >
+              for more info.
+            </p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/google-books-search"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/gbooks_git.png"
+                            alt="clicky-game-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://google-books-search3.herokuapp.com/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/gbooks_app.png"
+                            alt="clicky-game-app"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Clicky Game</h2>
+              <hr />
+            </div>
+            <p>
+              Clicky Game is a react application hosted on github pages in which
+              the user scores points by clicking on unique images. The user
+              loses by clicking the same image twice (the images are shuffled
+              each time one is clicked).
+            </p>
+            <p>
+              HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on
+              the backend.
+            </p>
+
+            <p>
+              See project
+              <a
+                target="_blank"
+                href="https://github.com/mhoef23/clicky-game/blob/master/README.md"
+                >README</a
+              >
+              for more info.
+            </p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/clicky-game"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/clicky-game-git.png"
+                            alt="clicky-game-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://mhoef23.github.io/clicky-game/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/clicky-game.png"
+                            alt="clicky-game-app"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Exquisite Corpse</h2>
+              <hr />
+            </div>
+            <p>
+              Exquisite corpse is a game played where a collection of images or
+              words is collectiveley assembled from various users. The
+              application uses Google Authentication to login/verify the user.
+              Once the user logins, they can either create a new story or add to
+              an existing story.
+            </p>
+            <p>
+              HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on
+              the backend.
+            </p>
+
+            <p>
+              See project
+              <a
+                target="_blank"
+                href="https://github.com/mhoef23/Project2_eCorpse/blob/master/README.md"
+                >README</a
+              >
+              for more info.
+            </p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/Project2_eCorpse"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/project2-readme.PNG"
+                            alt="project2-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://ecorpse.herokuapp.com/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/project2-app.PNG"
+                            alt="project2-app"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Burger</h2>
+              <hr />
+            </div>
+            <p>
+              This application is a burger logger created using with MySQL,
+              Node, Express, Handlebars and a homemade ORM. This app follows the
+              MVC design pattern, uses Node/MySQL to query/route data, and
+              Handlebars to generate HTML.
+            </p>
+
+            <p>See project README for more info.</p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/burger"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/burger-git.PNG"
+                            alt="burger-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://mysterious-castle-26617.herokuapp.com/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/burger-app.PNG"
+                            alt="burger-app"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Friend Finder</h2>
+              <hr />
+            </div>
+            <p>
+              This is a compatibility-based "FriendFinder" application --
+              basically a dating app. This full-stack site takes in results from
+              users' surveys, then compare their answers with those from other
+              users. The app then displays the name and picture of the user with
+              the best overall match.
+            </p>
+            <p>
+              This node application uses Express to handle routing and is
+              deployed to Heroku so other users can fill it out.
+            </p>
+
+            <p>See project README for more info.</p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/FriendFinder"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/ff-git.PNG"
+                            alt="friendfinder-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://arcane-bastion-12586.herokuapp.com/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/ff-app.PNG"
+                            alt="friend-finder-app"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>LIRI</h2>
+              <hr />
+            </div>
+            <p>
+              LIRI is a command line node app that takes in parameters and gives
+              you back data.
+            </p>
+
+            <p>See project README for more info.</p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/liri-node-app"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/spotify-this-song.PNG"
+                            alt="Liri-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://mhoef23.github.io/liri-node-app/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/liri-readme.PNG"
+                            alt="liri-readme"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Readme
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Train Scheduler</h2>
+              <hr />
+            </div>
+            <p>
+              Basic HTML/CSS/Javascript application utilizing Firebase and
+              MomentJS that allows users to create and view a train schedule.
+            </p>
+
+            <p>See project README for more info.</p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/Train-Scheduler"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/train.jpg"
+                            alt="Train-Scheduler-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://mhoef23.github.io/Train-Scheduler/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/train-ss.PNG"
+                            alt="Train-Scheduler"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Gif-Tastic</h2>
+              <hr />
+            </div>
+            <p>
+              Basic HTML/CSS/Javascript application that makes searching for
+              GIFs fun!
+            </p>
+
+            <p>See project README for more info.</p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/GifTastic"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/pinkdust.png"
+                            alt="giftastic-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://mhoef23.github.io/GifTastic/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/giftastic-ss.PNG"
+                            alt="giftastic"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
+            <div class="page-header my-bg-reverse pt-2">
+              <h2>Crystal Collector</h2>
+              <hr />
+            </div>
+
+            <p>
+              Basic HTML/CSS/Javascript application in which the user clicks
+              crystals to get points to try to match the generated number.
+            </p>
+            <p>See project README for more info.</p>
+
+            <div class="row my-text-primary">
+              <div class="col-md-12">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left"
+                >
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://github.com/mhoef23/unit-4-game"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/crystal-collector.jpg"
+                            alt="crystal-collector-git-code"
+                          />
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Git Code
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="hover11">
+                    <figure>
+                      <a
+                        class=""
+                        target="_blank"
+                        href="https://mhoef23.github.io/unit-4-game/"
+                      >
+                        <div class="card bg-dark text-white m-2">
+                          <img
+                            class="card-img border-0 my-p-img"
+                            src="assets/images/crystal-collector-ss.PNG"
+                            alt="crystal-collector"
+                          />
+
+                          <div
+                            class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0"
+                          >
+                            <h4
+                              class="card-title my-bg-primary text-center p-2"
+                            >
+                              Application
+                            </h4>
+                          </div>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Portfolio Container -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <nav class="navbar navbar-expand bg-transparent text-dark">
+          <div class="container justify-content-center">
+            <span class="mb-1">Copyright &COPY;</span>
+          </div>
+        </nav>
+      </footer>
+      <!-- End Footer -->
     </div>
-    <!-- End Header Row -->
+    <!-- End Main Container -->
 
-    <!-- Nav Buttons -->
-    <div class="row">
-      <div class="col-md-12 col-sm-12 mx-auto nav">
-        <button class="nav-button" id="about-button">About</button>
-        <span class="nav-button"> | </span>
-        <button class="nav-button" id="projects-button">Projects</button>
-        <span class="nav-button"> | </span>
-        <button class="nav-button" id="resume-button">Resume</button>
-      </div>
-    </div>
-    <!-- End Nav Buttons -->
-
-    <!-- bio container -->
-    <div id='bio' class="container main-section">
-      <!-- Bio Row -->
-      <div class="row">
-
-        <!-- Bio Section -->
-        <div class="col-md-12 mx-auto">
-                  <p>
-            Hello! My name is Mark Hoefer, and I'm an Atlanta-based software developer who is highly self-motivated to achieve all of my goals. If I'm not working towards my career goals, I am working towards my fitness goals thru exercise and playing sports.
-          </p>
-
-          <p>
-              I earned a B.S. in Computer Science from the University of Georgia while working as a full-time software engineer for CareerBuilder. After graduating in May 2017, I started building DevOps tools for Microsoft Azure at a startup named Monza Cloud. In 2018, I started a construction contracting business, Lumbee Concrete, with my close friend Alex Crawford. In 2019, I attended Georgia Tech's Full Stack Web Development Bootcamp. During this time I gained experience using popular web development technologies like Node.js, React.js, MongoDB, and Express.js. After completing the bootcamp I started working for nCourt, where I currently work now, building DevOps tools, building sites for courts to process payments, and integrating with various APIs to accomplish various goals.
-          </p>
-
-          <p>
-              I am a software developer with over 6 years of professional experience who has worked on teams using technology like C#, VisualBasic, .NET, HTML, CSS, JavaScript, Microsoft SQL Server, Visual Studio, GitHub, Microsoft Azure, and Azure DevOps. 
-          </p>
-        </div>
-        <!-- End Bio Section -->
-
-      </div>
-      <!-- End Bio Row -->
-    </div>
-    <!-- End Bio Container -->
-
-    <!-- Portfolio Container -->
-    <div id="portfolio" class="container">
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>InstaShoe</h2>
-            <hr>
-          </div>
-          <p>InstaShoe is a react application hosted on heroku.
-          </p>
-          <p>HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on the backend.</p>
-
-          <p>See project <a target="_blank" href="https://github.com/mhoef23/InstaShoe/blob/master/README.md">README</a>
-            for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/InstaShoe">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/instashoe_git.png"
-                          alt="clicky-game-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://peaceful-shelf-92187.herokuapp.com/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/instashoe_app.png"
-                          alt="clicky-game-app">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Google Books Search</h2>
-            <hr>
-          </div>
-          <p>Google Books Search is a react application hosted on heroku.
-          </p>
-          <p>HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on the backend.</p>
-
-          <p>See project <a target="_blank" href="https://github.com/mhoef23/google-books-search/blob/master/README.md">README</a>
-            for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/google-books-search">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/gbooks_git.png"
-                          alt="clicky-game-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://google-books-search3.herokuapp.com/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/gbooks_app.png"
-                          alt="clicky-game-app">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Clicky Game</h2>
-            <hr>
-          </div>
-          <p>Clicky Game is a react application hosted on github pages in which the user scores points by clicking on
-            unique images.
-            The user loses by clicking the same image twice (the images are shuffled each time one is clicked).
-
-          </p>
-          <p>HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on the backend.</p>
-
-          <p>See project <a target="_blank"
-              href="https://github.com/mhoef23/clicky-game/blob/master/README.md">README</a> for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/clicky-game">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/clicky-game-git.png"
-                          alt="clicky-game-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://mhoef23.github.io/clicky-game/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/clicky-game.png"
-                          alt="clicky-game-app">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Exquisite Corpse</h2>
-            <hr>
-          </div>
-          <p>Exquisite corpse is a game played where a collection of images or words is collectiveley assembled from
-            various users. The application uses Google Authentication to login/verify the user. Once the user logins,
-            they can either create a new story or add to an existing story.
-          </p>
-          <p>HTML/CSS/Javascript/Bootstrap on the front end and Node/Express on the backend.</p>
-
-          <p>See project <a target="_blank"
-              href="https://github.com/mhoef23/Project2_eCorpse/blob/master/README.md">README</a> for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/Project2_eCorpse">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/project2-readme.PNG"
-                          alt="project2-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://ecorpse.herokuapp.com/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/project2-app.PNG" alt="project2-app">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Burger</h2>
-            <hr>
-          </div>
-          <p>This application is a burger logger created using with MySQL, Node, Express, Handlebars and a homemade
-            ORM. This app follows the MVC design pattern, uses Node/MySQL to query/route data, and Handlebars to
-            generate
-            HTML.
-          </p>
-
-          <p>See project README for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/burger">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/burger-git.PNG"
-                          alt="burger-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://mysterious-castle-26617.herokuapp.com/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/burger-app.PNG" alt="burger-app">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Friend Finder</h2>
-            <hr>
-          </div>
-          <p>This is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site
-            takes in results from users' surveys, then compare their answers with those from other users. The app then
-            displays the name and picture of the user with the best overall match.</p>
-          <p>This node application uses Express to handle routing and is deployed to Heroku so other users can fill
-            it out. </p>
-
-          <p>See project README for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/FriendFinder">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/ff-git.PNG"
-                          alt="friendfinder-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://arcane-bastion-12586.herokuapp.com/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/ff-app.PNG" alt="friend-finder-app">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>LIRI</h2>
-            <hr>
-          </div>
-          <p>LIRI is a command line node app that takes in parameters and gives you back data.</p>
-
-          <p>See project README for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/liri-node-app">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/spotify-this-song.PNG"
-                          alt="Liri-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://mhoef23.github.io/liri-node-app/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/liri-readme.PNG" alt="liri-readme">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Readme</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Train Scheduler</h2>
-            <hr>
-          </div>
-          <p>Basic HTML/CSS/Javascript application utilizing Firebase and MomentJS that allows users to create and
-            view
-            a train schedule. </p>
-
-          <p>See project README for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/Train-Scheduler">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/train.jpg"
-                          alt="Train-Scheduler-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://mhoef23.github.io/Train-Scheduler/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/train-ss.PNG" alt="Train-Scheduler">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Gif-Tastic</h2>
-            <hr>
-          </div>
-          <p>
-            Basic HTML/CSS/Javascript application that makes searching for GIFs fun!
-          </p>
-
-          <p>See project README for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/GifTastic">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/pinkdust.png"
-                          alt="giftastic-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://mhoef23.github.io/GifTastic/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/giftastic-ss.PNG" alt="giftastic">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12 bg-transparent mx-auto m-2 my-sm-4 cardbody">
-
-          <div class="page-header my-bg-reverse pt-2">
-            <h2>Crystal Collector</h2>
-            <hr>
-          </div>
-
-          <p>
-            Basic HTML/CSS/Javascript application in which the user clicks crystals to get points to try to match
-            the
-            generated number.
-          </p>
-          <p>See project README for more info.</p>
-
-          <div class="row my-text-primary">
-            <div class="col-md-12">
-              <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://github.com/mhoef23/unit-4-game">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/crystal-collector.jpg"
-                          alt="crystal-collector-git-code">
-                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class="card-title my-bg-primary text-center p-2">Git Code</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-                <div class="hover11">
-                  <figure>
-                    <a class="" target="_blank" href="https://mhoef23.github.io/unit-4-game/">
-                      <div class="card bg-dark text-white m-2">
-                        <img class="card-img border-0 my-p-img" src="assets/images/crystal-collector-ss.PNG"
-                          alt="crystal-collector">
-
-                        <div class=" card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
-                          <h4 class=" card-title my-bg-primary text-center p-2">Application</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-    <!-- End Portfolio Container -->
-
-    <!-- Footer -->
-    <footer class="footer">
-      <nav class="navbar navbar-expand bg-transparent text-dark">
-        <div class="container justify-content-center">
-          <span class="mb-1">Copyright &COPY;</span>
-        </div>
-      </nav>
-    </footer>
-    <!-- End Footer -->
-
-  </div>
-  <!-- End Main Container -->
-
-  <script type="text/javascript" src="assets/js/app.js"></script>
-</body>
-
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </body>
 </html>

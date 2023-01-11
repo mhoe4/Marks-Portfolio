@@ -7,21 +7,34 @@
 */
 
 body {
-  
   /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
-  background-image: url("../images/light-veneer.png");
-  background-repeat: repeat;
+  background-image: url("../images/wallpaper3.png");
   background-color: #ffffff;
+  background-repeat: repeat;
 }
 
-a { color:black } 
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
+a {
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
 
-.header{
-  
+.header {
   /* background-image: url("../images/dev.jpg");
   background-size: auto; */
   margin-bottom: 10px;
@@ -45,12 +58,12 @@ a:hover, a:active { text-decoration: none; color:black }
   height: 25px;
 }
 .phone-icon {
-  margin-left:2px;
+  margin-left: 2px;
   height: 15px;
   padding-bottom: 1px;
 }
 
-.nav{
+.nav {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   display: flex;
@@ -65,11 +78,11 @@ button:hover {
 .nav-button {
   margin: 10px;
   background-color: Transparent;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   border: none;
-  cursor:pointer;
+  cursor: pointer;
   overflow: hidden;
-  outline:none;
+  outline: none;
 }
 
 .main-section {
@@ -81,15 +94,14 @@ button:hover {
   width: 400px !important;
 }
 
-.p-item{
+.p-item {
   border: 1px solid black;
   display: flex;
   justify-content: center;
 }
 
-
 .my-bg-primary {
-  background-color: rgb(21,93,119);
+  background-color: rgb(21, 93, 119);
   color: #ffffff;
   opacity: 0.8;
 }
@@ -102,12 +114,12 @@ hr {
 }
 
 .hover11 figure img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .hover11 figure:hover img {
-	opacity: .5;
+  opacity: 0.5;
 }
 
 /* media query for 640px screen or smaller */
@@ -117,23 +129,20 @@ hr {
   }
 
   .my-sm-image-wrapper {
-      width: 100%;
+    width: 100%;
   }
-  
+
   .card {
-      width: 100%;
-      height: auto;
+    width: 100%;
+    height: auto;
   }
 
   .card-img {
-      width: 100%;
-      height: auto;
+    width: 100%;
+    height: auto;
   }
-
 
   .container {
-      max-width: 640px;
+    max-width: 640px;
   }
-  
-
 }
