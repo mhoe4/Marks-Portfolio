@@ -15,6 +15,8 @@ A link to a PDF of Mark's Resume.
   2. LinkedIn
 
 ### Portfolio Items
+`MATHPOWERCLAY` - React site built to display clay menu options for MATHPOWERCLAY.
+
 `InstaShoe` - React app for trading/donating shoes. Severely under developed. The only noteworthy aspect is that I implemented Auth0 to handle authentication using jws-tokens. In order to redirect to either the trade or donate pages, users must authenticate and all POST requests must pass an authorization token in order to be successful.
 
 `Clicky Game` - Clicky Game is a react application hosted on github pages in which the user scores points by clicking on unique images. The user loses by clicking the same image twice (the images are shuffled each time one is clicked).
