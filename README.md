@@ -3,7 +3,7 @@ A short bio about Mark Hoefer.
 
 A small portfolio with some of Marks development work.
 
-A link to a PDF of Mark's Resume.
+A link to Mark's Resume.
 
 ### Contact Info
 
